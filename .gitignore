@@ -1,0 +1,21 @@
+# Compiled C++ artifacts
+*.o
+*.obj
+*.exe
+*.out
+*.dSYM/
+
+# macOS metadata
+.DS_Store
+
+# VS Code workspace settings
+.vscode/
+
+# Ignore files in module folders except source and text files
+module-*/*
+!module-*/*.cpp
+!module-*/*.CPP
+!module-*/*.c
+!module-*/*.h
+!module-*/*.hpp
+!module-*/*.txt
