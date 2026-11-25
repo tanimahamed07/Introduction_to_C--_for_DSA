@@ -3,7 +3,11 @@
 *.obj
 *.exe
 *.out
+*.bin
 *.dSYM/
+
+# Competitive programming helper cache
+.cph/
 
 # macOS metadata
 .DS_Store
